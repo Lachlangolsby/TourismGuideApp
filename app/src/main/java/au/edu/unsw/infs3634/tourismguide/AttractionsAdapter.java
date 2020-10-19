@@ -1,6 +1,7 @@
 package au.edu.unsw.infs3634.tourismguide;
 
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,7 +15,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
-import com.squareup.picasso.Target;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -79,12 +79,15 @@ public class AttractionsAdapter extends RecyclerView.Adapter<AttractionsAdapter.
         return new AttractionsViewHolder(v, mListener);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void onBindViewHolder(@NonNull AttractionsViewHolder holder, int position) {
         attractions Attractions =mAttractionsFiltered.get(position);
         DecimalFormat df = new DecimalFormat("#,###,###,###");
         holder.attraction.setText(Attractions.getAttraction());
         holder.price.setText(Attractions.getPriceGuide());
+        holder.type.setText(Attractions.getType());
+        holder.suburb.setText(Attractions.getSuburb());
         Picasso.with(holder.context).load(Attractions.getImageUrl()).resize(250, 250).into(holder.image);
         holder.rating.setText(Double.toString(Attractions.getRating()));
         holder.itemView.setTag(Attractions.getAttractionCode());
@@ -100,7 +103,7 @@ public class AttractionsAdapter extends RecyclerView.Adapter<AttractionsAdapter.
     }
 
     public static class AttractionsViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        public TextView attraction, price, rating;
+        public TextView attraction, price, rating, type, suburb;
         public ImageView image;
         public Context context;
         private AttractionsAdapter.RecyclerViewClickListener listener;
@@ -111,10 +114,12 @@ public class AttractionsAdapter extends RecyclerView.Adapter<AttractionsAdapter.
             this.listener = listener;
             itemView.setOnClickListener(this);
             attraction = itemView.findViewById(R.id.tvTitle);
-            price = itemView.findViewById(R.id.tvLocation);
+            price = itemView.findViewById(R.id.tvPriceGuide);
             rating = itemView.findViewById(R.id.tvRating);
             image = itemView.findViewById(R.id.ivSight);
             context = itemView.getContext();
+            type =itemView.findViewById(R.id.tvType);
+            suburb =itemView.findViewById(R.id.tvLocation);
 
         }
 

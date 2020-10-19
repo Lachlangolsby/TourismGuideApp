@@ -36,7 +36,7 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
 
 
-        mLocation = findViewById(R.id.tvLocation);
+        mLocation = findViewById(R.id.tvPriceGuide);
         mRatings = findViewById(R.id.tvRating);
         mImage = findViewById(R.id.ivAttraction);
         msearch = findViewById(R.id.search);

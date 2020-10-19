@@ -14,16 +14,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        android:contentDescription="@string/todo" />
 
     <TextView
-        android:id="@+id/tvLocation"
+        android:id="@+id/tvPriceGuide"
         android:layout_width="163dp"
         android:layout_height="32dp"
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="10dp"
-        android:text="TextView"
+        android:text="@string/textview"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/ivLocation "
         app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
@@ -34,8 +35,8 @@
         android:layout_height="19dp"
         android:layout_marginStart="48dp"
         android:layout_marginLeft="48dp"
-        android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:layout_marginTop="5dp"
+        android:text="@string/textview"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
         app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
@@ -49,14 +50,15 @@
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivEmail"
-        app:srcCompat="@drawable/baseline_stars_black_18dp" />
+        app:srcCompat="@drawable/baseline_stars_black_18dp"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="TextView"
+        android:text="@string/textview"
         android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/tvDescription"
@@ -71,7 +73,8 @@
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle"
-        app:srcCompat="@drawable/baseline_room_black_18dp" />
+        app:srcCompat="@drawable/baseline_room_black_18dp"
+        android:contentDescription="@string/todo" />
 
     <ImageView
         android:id="@+id/ivPhone"
@@ -82,7 +85,8 @@
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivLocation "
-        app:srcCompat="@drawable/baseline_call_black_18dp" />
+        app:srcCompat="@drawable/baseline_call_black_18dp"
+        android:contentDescription="@string/todo" />
 
     <ImageView
         android:id="@+id/ivEmail"
@@ -93,7 +97,8 @@
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivPhone"
-        app:srcCompat="@drawable/baseline_alternate_email_black_18dp" />
+        app:srcCompat="@drawable/baseline_alternate_email_black_18dp"
+        android:contentDescription="@string/todo" />
 
     <ImageView
         android:id="@+id/search"
@@ -104,20 +109,21 @@
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:srcCompat="@drawable/baseline_explore_black_18dp" />
+        app:srcCompat="@drawable/baseline_explore_black_18dp"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/tvFurtherInfo"
         android:layout_width="183dp"
         android:layout_height="16dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="40dp"
-        android:clickable="true"
-        android:linksClickable="true"
-        android:longClickable="true"
-        android:text="Click for further information "
-        android:textColor="#000000"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="36dp"
+        android:clickable="false"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:text="@string/click_for_further_information"
+        android:textColor="#03BCF4"
         android:textColorLink="#2196F3"
         app:layout_constraintStart_toEndOf="@+id/search"
         app:layout_constraintTop_toBottomOf="@+id/tvRating" />
@@ -129,10 +135,10 @@
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="30dp"
-        android:text="TextView"
+        android:text="@string/textview"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/ivPhone"
-        app:layout_constraintTop_toBottomOf="@+id/tvLocation" />
+        app:layout_constraintTop_toBottomOf="@+id/tvPriceGuide" />
 
     <TextView
         android:id="@+id/tvEmail"
@@ -140,8 +146,8 @@
         android:layout_height="58dp"
         android:layout_marginStart="48dp"
         android:layout_marginLeft="48dp"
-        android:layout_marginTop="20dp"
-        android:text="TextView"
+        android:layout_marginTop="32dp"
+        android:text="@string/textview"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/ivEmail"
         app:layout_constraintTop_toBottomOf="@+id/tvPhone" />
@@ -152,7 +158,7 @@
         android:layout_height="123dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="40dp"
-        android:text="TextView"
+        android:text="@string/textview"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -165,7 +171,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
-        android:text="Description"
+        android:text="@string/description"
         android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tvDescription"
