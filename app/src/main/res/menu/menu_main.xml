@@ -7,11 +7,11 @@
         app:showAsAction="always">
         <menu>
             <item
-                android:id="@+id/sort_Title"
-                android:title="@string/sort_Title" />
+                android:id="@+id/Sort_Rating"
+                android:title="@string/sort_Rating" />
             <item
-                android:id="@+id/sort_Location"
-                android:title="@string/sort_Location" />
+                android:id="@+id/sort_Rating2"
+                android:title="@string/sort_Rating2" />
         </menu>
     </item>
     <item
