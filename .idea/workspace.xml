@@ -7,34 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="166ad7bb-bfb9-4ecd-a2b6-c56ade753228" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/DetailActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/attractionsAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_row.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_search_white_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_sort_white_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_17_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_17_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_17_0_0_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/DetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/attractions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/attractions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/attractionsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/AttractionsAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <list id="2866567d-8e6a-4c80-b903-e189ad0abdc7" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 56edcfb4" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +47,8 @@
       <list>
         <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -75,7 +64,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../covidtracker-Lachlangolsby" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -86,6 +75,9 @@
     </key>
     <key name="android.template.-1775459477">
       <recent name="au.edu.unsw.infs3634.tourismguide" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\golsb\AndroidStudioProjects\tourismguide-Lachlangolsby\app\src\main\res\drawable" />
     </key>
   </component>
   <component name="RunManager">
@@ -166,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602036451011</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed file. Working on attractionsAdapter">
+      <created>1602053192096</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602053192096</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,29 +207,50 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Attractions data file." />
     <MESSAGE value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 56edcfb4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 56edcfb4" />
+    <MESSAGE value="Fixed file. Working on attractionsAdapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed file. Working on attractionsAdapter" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1602046271855">
+    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1603063428957">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1602046271855" />
+    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1603063428957" />
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602050367425">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1602050367425" />
-    <state x="349" y="187" key="AndroidCreateResourceFileDialog" timestamp="1602047905503">
+    <state x="349" y="187" key="AndroidCreateResourceDirectoryDialog" timestamp="1603066482664">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="349" y="187" key="AndroidCreateResourceFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1602047905503" />
-    <state x="378" y="14" key="CommitChangelistDialog2" timestamp="1602050483477">
+    <state x="349" y="187" key="AndroidCreateResourceDirectoryDialog/0.0.1536.864@0.0.1536.864" timestamp="1603066482664" />
+    <state x="349" y="187" key="AndroidCreateResourceFileDialog" timestamp="1603066437165">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="378" y="14" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1602050483477" />
+    <state x="349" y="187" key="AndroidCreateResourceFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1603066437165" />
+    <state x="378" y="14" key="CommitChangelistDialog2" timestamp="1602053191217">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="378" y="14" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1602053191217" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1602034284632">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1602034284632" />
+    <state width="1491" height="223" key="GridCell.Tab.0.bottom" timestamp="1603072332023">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603072332023" />
+    <state width="1491" height="223" key="GridCell.Tab.0.center" timestamp="1603072332023">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603072332023" />
+    <state width="1491" height="223" key="GridCell.Tab.0.left" timestamp="1603072332023">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603072332023" />
+    <state width="1491" height="223" key="GridCell.Tab.0.right" timestamp="1603072332023">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603072332023" />
     <state x="349" y="175" key="IDE.errors.dialog" timestamp="1602050206320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -243,9 +263,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="485" y="143" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1602050407530" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1602036453017">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1602053194123">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1602036453017" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1602053194123" />
   </component>
 </project>

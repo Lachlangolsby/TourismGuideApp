@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TourismGuide</string>
+    <string name="action_search">search</string>
+    <string name="action_sort">sort</string>
+    <string name="sort_Title">Title</string>
+    <string name="sort_Location">Total Location</string>
 </resources>
