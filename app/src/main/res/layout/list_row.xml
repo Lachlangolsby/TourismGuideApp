@@ -20,12 +20,16 @@
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="149dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="142dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/allerta"
+        android:includeFontPadding="true"
         android:text="test"
+        android:textColor="#000000"
+        android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/ivSight"
         app:layout_constraintTop_toTopOf="@+id/ivSight" />
 
@@ -33,22 +37,48 @@
         android:id="@+id/tvLocation"
         android:layout_width="152dp"
         android:layout_height="20dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="6dp"
         android:text="1000"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/ivSight"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/tvRatingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="25dp"
+        android:text="Rating (/5)"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/tvTitle"
+        app:layout_constraintTop_toTopOf="@+id/ivSight" />
 
     <TextView
         android:id="@+id/tvRating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="4dp"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/tvLocation"
-        app:layout_constraintTop_toTopOf="@+id/ivSight" />
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvRatingTitle" />
+
+    <TextView
+        android:id="@+id/tvPriceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Price Guide: "
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/tvLocation"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toEndOf="@+id/ivSight"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

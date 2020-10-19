@@ -84,9 +84,9 @@ public class AttractionsAdapter extends RecyclerView.Adapter<AttractionsAdapter.
         attractions Attractions =mAttractionsFiltered.get(position);
         DecimalFormat df = new DecimalFormat("#,###,###,###");
         holder.attraction.setText(Attractions.getAttraction());
-        holder.location.setText(Attractions.getLocation());
+        holder.price.setText(Attractions.getPriceGuide());
         Picasso.with(holder.context).load(Attractions.getImageUrl()).resize(250, 250).into(holder.image);
-        holder.rating.setText("+" + df.format(Attractions.getRating()));
+        holder.rating.setText(Double.toString(Attractions.getRating()));
         holder.itemView.setTag(Attractions.getAttractionCode());
     }
     @Override
@@ -100,7 +100,7 @@ public class AttractionsAdapter extends RecyclerView.Adapter<AttractionsAdapter.
     }
 
     public static class AttractionsViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        public TextView attraction, location, rating;
+        public TextView attraction, price, rating;
         public ImageView image;
         public Context context;
         private AttractionsAdapter.RecyclerViewClickListener listener;
@@ -111,7 +111,7 @@ public class AttractionsAdapter extends RecyclerView.Adapter<AttractionsAdapter.
             this.listener = listener;
             itemView.setOnClickListener(this);
             attraction = itemView.findViewById(R.id.tvTitle);
-            location = itemView.findViewById(R.id.tvLocation);
+            price = itemView.findViewById(R.id.tvLocation);
             rating = itemView.findViewById(R.id.tvRating);
             image = itemView.findViewById(R.id.ivSight);
             context = itemView.getContext();
@@ -130,12 +130,12 @@ public class AttractionsAdapter extends RecyclerView.Adapter<AttractionsAdapter.
                 @Override
                 public int compare(attractions t0, attractions t1) {
                     if (sortMethod == SORT_METHOD_RATINGHL) {
-                        return Integer.toString(t1.getRating()).compareTo(Integer.toString(t0.getRating()));
+                        return Double.toString(t1.getRating()).compareTo(Double.toString(t0.getRating()));
                     }
                     else if (sortMethod == SORT_METHOD_RATINGLH) {
-                        return Integer.toString(t0.getRating()).compareTo(Integer.toString(t1.getRating()));
+                        return Double.toString(t0.getRating()).compareTo(Double.toString(t1.getRating()));
                     }
-                    return Integer.toString(t1.getRating()).compareTo(Integer.toString(t0.getRating()));
+                    return Double.toString(t1.getRating()).compareTo(Double.toString(t0.getRating()));
                 }
             });
         } notifyDataSetChanged();
