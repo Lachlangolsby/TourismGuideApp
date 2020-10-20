@@ -10,13 +10,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/AttractionsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/AttractionsAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/DetailActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/attractions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/attractions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_row.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <list id="2866567d-8e6a-4c80-b903-e189ad0abdc7" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 56edcfb4" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603093640132</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Working Prototype.">
+      <created>1603099463853</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603099463853</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,10 +264,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="625" y="245" key="AndroidCreateXmlResourceDialog/0.0.1536.864@0.0.1536.864" timestamp="1603099070197" />
-    <state x="378" y="14" key="CommitChangelistDialog2" timestamp="1603099344925">
+    <state x="378" y="14" key="CommitChangelistDialog2" timestamp="1603099581411">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="378" y="14" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1603099344925" />
+    <state x="378" y="14" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1603099581411" />
     <state x="449" y="187" key="Downloadable.Font.Dialog.Size" timestamp="1603086020076">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -298,10 +304,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="485" y="143" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1602050407530" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1603093641929">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1603099465863">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603093641929" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603099465863" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1603080608598">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

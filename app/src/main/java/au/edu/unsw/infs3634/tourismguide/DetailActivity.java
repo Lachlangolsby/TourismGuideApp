@@ -2,6 +2,7 @@ package au.edu.unsw.infs3634.tourismguide;
 
 import android.content.Context;
 import android.content.Intent;
+import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -67,10 +68,12 @@ public class DetailActivity extends AppCompatActivity {
                 Picasso.with(context).load(Attractions.getImageUrl()).resize(250, 250).into(mImage);
 
 
-                msearch.setOnClickListener(new View.OnClickListener() {
+
+
+                mLocation.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick (View v) {
-                        searchAttraction(Attractions.getAttraction());
+                        searchLocation(Attractions.getLocation());
                     }
                 });
 
@@ -91,6 +94,10 @@ public class DetailActivity extends AppCompatActivity {
 
     private void searchAttraction (String Attraction) {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q="+ Attraction+" Sydney"));
+        startActivity(intent);
+    }
+    private void searchLocation (String Location) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com.au/maps/place/"+ Location));
         startActivity(intent);
     }
 
