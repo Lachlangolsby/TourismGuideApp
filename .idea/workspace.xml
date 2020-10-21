@@ -6,16 +6,24 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="166ad7bb-bfb9-4ecd-a2b6-c56ade753228" name="Default Changelist" comment="Working Prototype.">
+    <list default="true" id="166ad7bb-bfb9-4ecd-a2b6-c56ade753228" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/AttractionsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/AttractionsAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/DetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/attractions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/au/edu/unsw/infs3634/tourismguide/attractions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <list id="2866567d-8e6a-4c80-b903-e189ad0abdc7" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 56edcfb4" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603099463853</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Working Prototype.Added locations.">
+      <created>1603160079181</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603160079181</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +252,8 @@
     <MESSAGE value="Working recycler view with images, Lots of bugs need fixing." />
     <MESSAGE value="Working Application." />
     <MESSAGE value="Working Prototype." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working Prototype." />
+    <MESSAGE value="Working Prototype.Added locations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working Prototype.Added locations." />
   </component>
   <component name="WindowStateProjectService">
     <state x="286" y="164" key="#PSD" timestamp="1603079440013">
@@ -264,10 +280,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="625" y="245" key="AndroidCreateXmlResourceDialog/0.0.1536.864@0.0.1536.864" timestamp="1603099070197" />
-    <state x="378" y="14" key="CommitChangelistDialog2" timestamp="1603099581411">
+    <state x="378" y="14" key="CommitChangelistDialog2" timestamp="1603238754563">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="378" y="14" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1603099581411" />
+    <state x="378" y="14" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1603238754563" />
     <state x="449" y="187" key="Downloadable.Font.Dialog.Size" timestamp="1603086020076">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -276,22 +292,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1602034284632" />
-    <state width="1491" height="223" key="GridCell.Tab.0.bottom" timestamp="1603099236599">
+    <state width="1491" height="223" key="GridCell.Tab.0.bottom" timestamp="1603234439143">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1491" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603099236599" />
-    <state width="1491" height="223" key="GridCell.Tab.0.center" timestamp="1603099236599">
+    <state width="1491" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603234439143" />
+    <state width="1491" height="223" key="GridCell.Tab.0.center" timestamp="1603234439143">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1491" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603099236599" />
-    <state width="1491" height="223" key="GridCell.Tab.0.left" timestamp="1603099236598">
+    <state width="1491" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603234439143" />
+    <state width="1491" height="223" key="GridCell.Tab.0.left" timestamp="1603234439143">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1491" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603099236598" />
-    <state width="1491" height="223" key="GridCell.Tab.0.right" timestamp="1603099236599">
+    <state width="1491" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603234439143" />
+    <state width="1491" height="223" key="GridCell.Tab.0.right" timestamp="1603234439143">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1491" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603099236599" />
+    <state width="1491" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603234439143" />
     <state x="349" y="175" key="IDE.errors.dialog" timestamp="1602050206320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -304,10 +320,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="485" y="143" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1602050407530" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1603099465863">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1603160080862">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603099465863" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603160080862" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1603080608598">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

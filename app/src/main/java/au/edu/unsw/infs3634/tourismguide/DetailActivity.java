@@ -2,7 +2,6 @@ package au.edu.unsw.infs3634.tourismguide;
 
 import android.content.Context;
 import android.content.Intent;
-import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -16,14 +15,13 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 
 public class DetailActivity extends AppCompatActivity {
+    // 1. declaring string to be used to pull the attraction code in order to populate the page.
     public static final String INTENT_MESSAGE = "au.edu.unsw.infs3634.tourismguide.intent_message";
-
-
+    // 2. declaring variables to be correlated with XML UI features
+    public Context context;
     private TextView mLocation;
     private TextView mRatings;
-    private ImageView msearch;
     private ImageView mImage;
-    public Context context;
     private TextView mEmail;
     private TextView mPhone;
     private TextView mDescription;
@@ -33,31 +31,31 @@ public class DetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String value = getIntent().getStringExtra("TestData");
+        String value = getIntent().getStringExtra("Data");
         setContentView(R.layout.activity_detail);
 
-
+        // 3. attaching declared variables with XML UI features
         mLocation = findViewById(R.id.tvPriceGuide);
         mRatings = findViewById(R.id.tvRating);
         mImage = findViewById(R.id.ivAttraction);
-        msearch = findViewById(R.id.search);
         context = mImage.getContext();
-        mEmail =findViewById((R.id.tvEmail));
-        mPhone =findViewById((R.id.tvPhone));
-        mDescription =findViewById((R.id.tvDescription));
-        mTitle =findViewById((R.id.tvTitle));
+        mEmail = findViewById((R.id.tvEmail));
+        mPhone = findViewById((R.id.tvPhone));
+        mDescription = findViewById((R.id.tvDescription));
+        mTitle = findViewById((R.id.tvTitle));
 
 
-
+        // 4. using a getter intent to retrieve the Attractions code
         Intent intent = getIntent();
         String AttractionCode = intent.getStringExtra(INTENT_MESSAGE);
 
-
+        //5. pulling Array List from attractions class
         ArrayList<attractions> attraction = attractions.getAttractions();
-        for (final attractions Attractions: attraction){
 
-            if (Attractions.getAttractionCode().equals(AttractionCode)){
-                // update all text views with all info
+        //6. if selected attraction matched the attratcion from the array list, changing XML UI details accordingly
+        for (final attractions Attractions : attraction) {
+
+            if (Attractions.getAttractionCode().equals(AttractionCode)) {
                 setTitle(Attractions.getAttraction());
                 mLocation.setText(Attractions.getLocation());
                 mRatings.setText(String.valueOf(Attractions.getRating()));
@@ -67,37 +65,34 @@ public class DetailActivity extends AppCompatActivity {
                 mTitle.setText(Attractions.getAttraction());
                 Picasso.with(context).load(Attractions.getImageUrl()).resize(250, 250).into(mImage);
 
-
-
-
+                // 7. calling methods to redirect to google maps and more information respectively. Aswell as assigning them to relevant UI elements
                 mLocation.setOnClickListener(new View.OnClickListener() {
                     @Override
-                    public void onClick (View v) {
+                    public void onClick(View v) {
                         searchLocation(Attractions.getLocation());
                     }
                 });
 
                 findViewById((R.id.tvFurtherInfo)).setOnClickListener(new View.OnClickListener() {
                     @Override
-                    public void onClick (View v) {
+                    public void onClick(View v) {
                         searchAttraction(Attractions.getAttraction());
                     }
                 });
-
-
-
 
 
             }
         }
     }
 
-    private void searchAttraction (String Attraction) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q="+ Attraction+" Sydney"));
+    // 8. Methods for the intent to change activity to the relevant weblinks (google and maps).
+    private void searchAttraction(String Attraction) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q=" + Attraction + " Sydney"));
         startActivity(intent);
     }
-    private void searchLocation (String Location) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com.au/maps/place/"+ Location));
+
+    private void searchLocation(String Location) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com.au/maps/place/" + Location));
         startActivity(intent);
     }
 
