@@ -6,9 +6,11 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 
 import com.squareup.picasso.Picasso;
 
@@ -22,6 +24,8 @@ public class DetailActivity extends AppCompatActivity {
     private TextView mLocation;
     private TextView mRatings;
     private ImageView mImage;
+    private ImageView mImage2;
+    private ImageView mImage3;
     private TextView mEmail;
     private TextView mPhone;
     private TextView mDescription;
@@ -38,6 +42,8 @@ public class DetailActivity extends AppCompatActivity {
         mLocation = findViewById(R.id.tvPriceGuide);
         mRatings = findViewById(R.id.tvRating);
         mImage = findViewById(R.id.ivAttraction);
+        mImage2 = findViewById(R.id.ivAttraction2);
+        mImage3 = findViewById(R.id.ivAttraction3);
         context = mImage.getContext();
         mEmail = findViewById((R.id.tvEmail));
         mPhone = findViewById((R.id.tvPhone));
@@ -63,7 +69,12 @@ public class DetailActivity extends AppCompatActivity {
                 mPhone.setText(Attractions.getPhoneNumber());
                 mDescription.setText(Attractions.getDescription());
                 mTitle.setText(Attractions.getAttraction());
-                Picasso.with(context).load(Attractions.getImageUrl()).resize(250, 250).into(mImage);
+                Picasso.with(context).load(Attractions.getImageUrl()).resize(125, 145).into(mImage);
+                Picasso.with(context).load(Attractions.getImageUrl2()).resize(125, 145).into(mImage2);
+                Picasso.with(context).load(Attractions.getImageUrl3()).resize(125, 145).into(mImage3);
+
+
+
 
                 // 7. calling methods to redirect to google maps and more information respectively. Aswell as assigning them to relevant UI elements
                 mLocation.setOnClickListener(new View.OnClickListener() {
@@ -81,6 +92,8 @@ public class DetailActivity extends AppCompatActivity {
                 });
 
 
+
+
             }
         }
     }
@@ -90,6 +103,8 @@ public class DetailActivity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q=" + Attraction + " Sydney"));
         startActivity(intent);
     }
+
+
 
     private void searchLocation(String Location) {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com.au/maps/place/" + Location));
