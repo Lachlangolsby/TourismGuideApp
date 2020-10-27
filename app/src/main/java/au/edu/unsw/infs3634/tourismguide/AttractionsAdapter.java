@@ -86,7 +86,7 @@ public class AttractionsAdapter extends RecyclerView.Adapter<AttractionsAdapter.
 
 
     @SuppressLint("SetTextI18n")
-    //8. on bid view holder method retrieves data from attractions class and holds the correct data in each list row using attractions get methods.
+    //8. on bind view holder method retrieves data from attractions class and holds the correct data in each list row using attractions get methods.
     @Override
     public void onBindViewHolder(@NonNull AttractionsViewHolder holder, int position) {
         attractions Attractions = mAttractionsFiltered.get(position);
